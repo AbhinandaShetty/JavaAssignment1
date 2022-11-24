@@ -24,6 +24,7 @@ public class MVCPattern {
 	      Student student = new Student();
 	      student.setName("Sunil");
 	      student.setRollNo("001");
+	      student.setGrade("FirstClass");
 	      return student;
 	   }
 	

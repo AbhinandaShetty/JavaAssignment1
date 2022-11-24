@@ -4,8 +4,17 @@ public class Student {
 	
 	private String rollNo;
 	   private String name;
+	   private String grade;
 	   
-	   public String getRollNo() {
+	   public String getGrade() {
+		return grade;
+	}
+
+	public void setGrade(String grade) {
+		this.grade = grade;
+	}
+
+	public String getRollNo() {
 	      return rollNo;
 	   }
 	   
